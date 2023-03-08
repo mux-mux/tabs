@@ -171,15 +171,13 @@ a {
 }
 .sidepanel__show {
   display: block;
-}
-.sidepanel__hide {
-  display: none;
-}
-.sidepanel__fade {
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
+}
+.sidepanel__hide {
+  display: none;
 }
 
 @-webkit-keyframes fade {
